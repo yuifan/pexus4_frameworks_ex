@@ -22,7 +22,7 @@
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <!-- Run tests with "runtest common" -->
+    <!-- Run tests with "runtest android-common" -->
     <instrumentation android:name="android.test.InstrumentationTestRunner"
             android:targetPackage="com.android.common.tests"
             android:label="Android Common Library Tests" />
